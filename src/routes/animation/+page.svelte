@@ -63,23 +63,17 @@
 	let code: ReturnType<typeof Code> = $state()
 </script>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <Presentation class="h-full w-full">
 	<Slide class="absolute h-full w-full place-content-center text-3xl ">
 		<div class="grid h-full w-full grid-cols-3 grid-rows-1">
-			<div class="flex">
+			<div class=" flex">
 				{#each coins as coin}
-					<svg
-						style="scale: {coin.tween.scale};"
-						class="relative"
-						width="200"
-						height="100"
-						viewBox={coin.viewBox}
-					>
+					<svg style="scale: {coin.tween.scale};" class="relative" viewBox={coin.viewBox}>
 						<circle cx={coin.tween.x} cy={100} r={50} fill={coin.tween.fill} />
 						<text
 							x={coin.tween.x}
 							y={100}
-							width="100%"
 							class="h-fit w-fit"
 							font-family="Monaspace Neon"
 							font-size="48px"
@@ -118,7 +112,12 @@ print(monnaie(P,16))
 					options={{ duration: 1000, stagger: 0.3, lineNumbers: true, containerStyle: false }}
 				/>
 			</div>
-			<div style="scale: {text.scale}" class="h-fit pt-7">{text.val.toFixed(0)}</div>
+			<div
+				style="scale: {text.scale}"
+				class="flex flex-col justify-center text-xl lg:text-3xl xl:text-7xl 2xl:text-9xl"
+			>
+				{text.val.toFixed(0)}
+			</div>
 		</div>
 		<Action do={() => code.selectLines`1`} />
 
