@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Animotion</title>
+	<title>Algorithme glouton</title>
 </svelte:head>
 
 {@render children()}
