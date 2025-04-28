@@ -5,7 +5,7 @@ This presentation contains a code snippet & an animation to better show how the 
 Ceci est une presentation Animotion de l'Algorithme Glouton ou "Greedy Algorithm" in English.
 Cette presentation contient un extrait de code et d'une animation pour mieux monter comment l'agorithm fonctionne.
 
-you can find the presentation at [this link](greedy-algorithm-one.vercel.app)
+you can find the presentation at [this link](https://greedy-algorithm-one.vercel.app/)
 
 ## Setup
 
