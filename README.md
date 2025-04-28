@@ -1,6 +1,11 @@
-# Animotion Template
 
-This is an Animotion presentation.
+This is an Animotion presentation of the greedy algorithm or "Algorithme Glouton" in French.
+This presentation contains a code snippet & an animation to better show how the algorithm works
+
+Ceci est une presentation Animotion de l'Algorithme Glouton ou "Greedy Algorithm" in English.
+Cette presentation contient un extrait de code et d'une animation pour mieux monter comment l'agorithm fonctionne.
+
+you can find the presentation at [greedy-algorithm-one.vercel.app](this link)
 
 ## Setup
 
